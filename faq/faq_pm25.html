@@ -1,0 +1,113 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            margin: 0 auto;
+            max-width: 700px;
+        }
+
+        body {
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        a {
+            color: #25CC68;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        li {
+            font-size: 14px;
+        }
+
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: 30% auto;
+        }
+
+        .grid-item.grid-header {
+            background-color: #F0F0F0;
+            padding: 16px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .grid-item {
+            border: 1px solid #E0E0E0;
+            text-align: center;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="title">What is PM2.5?</p>
+    <p>Particle pollution, also called particulate matter or PM consists of two major groups based on size - PM2.5 and
+        PM10.<br><br><b>PM2.5</b> represents the very tiny particles smaller than 2.5 micrometers (more than 100 times
+        thinner than a human hair). They are made from automobile exhaust, burning garbage and landfill, smelting and
+        processing of metals. These are lighter and go deeper into the lungs and blood stream and cause greater damage
+        longer term. PM2.5 is measured in µg/m3.</p>
+    <p class="subtitle">How is the PM2.5 concentration related to your health?</p>
+    <p>According to Indian AQI:</p>
+
+    <div class="grid-container">
+        <div class="grid-item grid-header">PM2.5 (µg/m3)</div>
+        <div class="grid-item grid-header">Health Impact</div>
+        <div class="grid-item" style="color:#17AF35">Good<br />(0-30)</div>
+        <div class="grid-item">Minimal Health impact</div>
+        <div class="grid-item" style="color:#74CB40">Satisfactory<br />(31-60)</div>
+        <div class="grid-item">Minor Breathing discomfort to sensitive people.</div>
+        <div class="grid-item" style="color:#E1CB43">Moderate<br />(61-90)</div>
+        <div class="grid-item">Breathing discomfort to asthma patents, elderly and children.</div>
+        <div class="grid-item" style="color:#E08638">Poor<br />(91-120)</div>
+        <div class="grid-item">Breathing discomfort to all</div>
+        <div class="grid-item" style="color:#CE2121">Very poor<br />(121-250)</div>
+        <div class="grid-item">Respiratory illness on prolonged exposure.</div>
+        <div class="grid-item" style="color:#A60505">Severe<br />(250+)</div>
+        <div class="grid-item">Health impact even on light physical work. Serious impact on people with heart/lung
+            disease.</div>
+    </div>
+    <br>
+    <p>According to US AQI:</p>
+    <div class="grid-container">
+        <div class="grid-item grid-header">PM2.5 (µg/m3)</div>
+        <div class="grid-item grid-header">Health Impact</div>
+        <div class="grid-item" style="color:#17AF35">Good<br />(0-12)</div>
+        <div class="grid-item">Air quality is considered satisfactory, and air pollution poses little or no risk.</div>
+        <div class="grid-item" style="color:#E1CB43">Satisfactory<br />(12.1-35.4)</div>
+        <div class="grid-item">Air quality is acceptable; however, for some pollutants there may be a moderate health
+            concern for a very small number of people who are unusually sensitive to air pollution.</div>
+        <div class="grid-item" style="color:#E08638">Moderate<br />(35.5-55.4)</div>
+        <div class="grid-item">Members of sensitive groups may experience health effects. The general public is not
+            likely to be affected.</div>
+        <div class="grid-item" style="color:#CE2121">Poor<br />(55.5-150.4)</div>
+        <div class="grid-item">Everyone may begin to experience health effects; members of sensitive groups may
+            experience more serious health effects.</div>
+        <div class="grid-item" style="color:#8F3F98">Very poor<br />(150.5-250.4)</div>
+        <div class="grid-item">Health alert: everyone may experience more serious health effects.</div>
+        <div class="grid-item" style="color:#A60505">Severe<br />(250.5-500.4)</div>
+        <div class="grid-item">Health warnings of emergency conditions. The entire population is more likely to be
+            affected.</div>
+    </div>
+</body>
+
+</html>

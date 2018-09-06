@@ -1,0 +1,125 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            margin: 0 auto;
+            max-width: 700px;
+        }
+
+        body {
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        a {
+            color: #25CC68;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        li {
+            font-size: 14px;
+        }
+
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: 30% auto;
+        }
+
+        .grid-item.grid-header {
+            background-color: #F0F0F0;
+            padding: 16px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .grid-item {
+            border: 1px solid #E0E0E0;
+            text-align: center;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="title">What is CO2?</p>
+    <p>CO2 is a natural constituent of the air we breathe; it is a colourless, odourless and non-flammable gas produced
+        by metabolic processes (such as human breathing) and by combustion of fossil fuels.<br><br>The average outdoor
+        air
+        concentration of CO2 is in the order of 400 ppm. Indoor levels are usually higher, due to the CO2 exhaled by
+        building occupants. Human respiration, indoor combustion appliances, in particular gas stoves, can also
+        increase CO2 levels.<br><br><b>Health Impact of CO2</b><br><br>A study from the Harvard School of Public Health
+        finds
+        that carbon dioxide (CO2) has a direct and negative impact on human cognition and decision-making. They found
+        that, on average, a typical participant’s cognitive scores dropped 21 percent with a 400 ppm increase in
+        CO2.<br><br>High levels of CO2 also indicate poor ventilation which can also lead to increased humidity, as
+        moisture produced indoors is not vented to the outside. High humidity can encourage the growth of mould and
+        dust mites; both of which are allergens and asthma triggers.</p>
+
+    <p class="subtitle">How is the CO2 concentration related to your health?</p>
+    <p>According to Indian AQI:</p>
+    <div class="grid-container">
+        <div class="grid-item grid-header">CO2 (ppm)</div>
+        <div class="grid-item grid-header">Health Impact</div>
+        <div class="grid-item" style="color:#17AF35">Good<br />(0-750)</div>
+        <div class="grid-item">Plenty of ventilation indoors.</div>
+        <div class="grid-item" style="color:#74CB40">Satisfactory<br />(751-900)</div>
+        <div class="grid-item">Satisfactory ventilation.</div>
+        <div class="grid-item" style="color:#E1CB43">Moderate<br />(901-1100)</div>
+        <div class="grid-item">It is time to ventillate your room. CO2 levels are rising. Some people may feel some
+            discomfort.</div>
+        <div class="grid-item" style="color:#E08638">Poor<br />(1101-1400)</div>
+        <div class="grid-item">Please ventilate your room. High CO2 levels can effect productivity and cognitive
+            ability of occupants.</div>
+        <div class="grid-item" style="color:#CE2121">Very poor<br />(1401-2500)</div>
+        <div class="grid-item">Please ventilate immediately. High CO2 levels can have significant effects on
+            productivity and cognitive ability of occupants.</div>
+        <div class="grid-item" style="color:#A60505">Severe<br />(2500+)</div>
+        <div class="grid-item">You need to ventilate now. Prolonged exposure may lead to long term effects on cognitive
+            ability.</div>
+    </div>
+    <br>
+    <br>
+    
+    <p>According to US AQI:</p>
+    <div class="grid-container">
+        <div class="grid-item grid-header">CO2 (ppm)</div>
+        <div class="grid-item grid-header">Health Impact</div>
+        <div class="grid-item" style="color:#17AF35">Good<br />(0-750)</div>
+        <div class="grid-item">Plenty of ventilation indoors.</div>
+        <div class="grid-item" style="color:#E1CB43">Satisfactory<br />(751-900)</div>
+        <div class="grid-item">Satisfactory ventilation.</div>
+        <div class="grid-item" style="color:#E08638">Moderate<br />(901-1100)</div>
+        <div class="grid-item">It is time to ventillate your room. CO2 levels are rising. Some people may feel some
+            discomfort.</div>
+        <div class="grid-item" style="color:#CE2121">Poor<br />(1101-1400)</div>
+        <div class="grid-item">Please ventilate your room. High CO2 levels can effect productivity and cognitive
+            ability of occupants.</div>
+        <div class="grid-item" style="color:#8F3F98">Very poor<br />(1401-2500)</div>
+        <div class="grid-item">Please ventilate immediately. High CO2 levels can have significant effects on
+            productivity and cognitive ability of occupants.</div>
+        <div class="grid-item" style="color:#A60505">Severe<br />(2500+)</div>
+        <div class="grid-item">You need to ventilate now. Prolonged exposure may lead to long term effects on cognitive
+            ability.</div>
+    </div>
+</body>
+
+</html>
