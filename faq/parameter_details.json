@@ -1,0 +1,183 @@
+//IND AQI
+{
+    "rangeList": [{
+        "type": "aqi",
+        "ranges": [50, 100, 200, 300, 400, 999999],
+        "colors": ["#17AF35", "#74CB40", "#E1CB43", "#E08638", "#CE2121", "#A60505"],
+        "faq_link": "",
+        "name": "AQI"
+    }, {
+        "type": "pm_25",
+        "ranges": [30, 60, 90, 120, 250, 999999],
+        "colors": ["#17AF35", "#74CB40", "#E1CB43", "#E08638", "#CE2121", "#A60505"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_pm25.html",
+        "name": "PM2.5",
+        "min": 0,
+        "max": 300,
+        "granularity": 5,
+        "unit": "&#181g/m3",
+        "limitType": "TYPE_I"
+    }, {
+        "type": "pm_10",
+        "ranges": [50, 100, 250, 350, 430, 999999],
+        "colors": ["#17AF35", "#74CB40", "#E1CB43", "#E08638", "#CE2121", "#A60505"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_pm10.html",
+        "name": "PM10",
+        "min": 0,
+        "max": 600,
+        "granularity": 5,
+        "unit": "&#181g/m3",
+        "limitType": "TYPE_I"
+    }, {
+        "type": "co2",
+        "ranges": [750, 900, 1100, 1400, 2500, 999999],
+        "colors": ["#17AF35", "#74CB40", "#E1CB43", "#E08638", "#CE2121", "#A60505"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_co2.html",
+        "name": "CO2",
+        "min": 400,
+        "max": 3000,
+        "granularity": 10,
+        "unit": "ppm",
+        "limitType": "TYPE_I"
+    }, {
+        "type": "temperature",
+        "ranges": [17, 27, 50],
+        "colors": ["#E1CB43", "#17AF35", "#E1CB43"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_temperature.html",
+        "name": "Temperature",
+        "min": 5,
+        "max": 45,
+        "granularity": 1,
+        "unit": "celsius",
+        "limitType": "TYPE_II"
+    }, {
+        "type": "humidity",
+        "ranges": [29, 60, 100],
+        "colors": ["#E1CB43", "#17AF35", "#E1CB43"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_humidity.html",
+        "name": "Humidity",
+        "min": 0,
+        "max": 100,
+        "granularity": 1,
+        "unit": "%",
+        "limitType": "TYPE_II"
+    }, {
+        "type": "voc",
+        "ranges": [220, 325, 500, 999999],
+        "colors": ["#17AF35", "#74CB40", "#E08638", "#CE2121"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_tvoc.html",
+        "name": "TVOC",
+        "min": 0,
+        "max": 1000,
+        "granularity": 5,
+        "unit": "ppb",
+        "limitType": "TYPE_I"
+    }, {
+        "type": "co",
+        "ranges": [9, 24, 50, 124, 399, 999999],
+        "colors": ["#17AF35", "#74CB40", "#E1CB43", "#E08638", "#CE2121", "#A60505"],
+        "faq_link": "http://www.airveda.com/resources/faq/faq_co.html",
+        "name": "CO",
+        "min": 0,
+        "max": 500,
+        "granularity": 5,
+        "unit": "ppm",
+        "limitType": "TYPE_I"
+    }]
+}
+
+
+
+//US Aqi
+{
+    "rangeList": [{
+            "type": "aqi",
+            "ranges": [50, 100, 150, 200, 300, 999999],
+            "colors": ["#17AF35", "#E1CB43", "#E08638", "#CE2121", "#8F3F98", "#A60505"],
+            "faq_link": "",
+            "name": "AQI"
+        }, {
+            "type": "pm_25",
+            "ranges": [12, 35, 55, 150, 250, 999999],
+            "colors": ["#17AF35", "#E1CB43", "#E08638", "#CE2121", "#8F3F98", "#A60505"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_pm25.html",
+            "name": "PM2.5",
+            "min": 0,
+            "max": 300,
+            "granularity": 5,
+            "unit": "&#181g/m3",
+            "limitType": "TYPE_I"
+        },
+        {
+            "type": "pm_10",
+            "ranges": [54, 154, 254, 354, 424, 999999],
+            "colors": ["#17AF35", "#E1CB43", "#E08638", "#CE2121", "#8F3F98", "#A60505"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_pm10.html",
+            "name": "PM10",
+            "min": 0,
+            "max": 600,
+            "granularity": 5,
+            "unit": "&#181g/m3",
+            "limitType": "TYPE_I"
+        },
+        {
+            "type": "co2",
+            "ranges": [750, 900, 1100, 1400, 2500, 999999],
+            "colors": ["#17AF35", "#E1CB43", "#E08638", "#CE2121", "#8F3F98", "#A60505"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_co2.html",
+            "name": "CO2",
+            "min": 400,
+            "max": 3000,
+            "granularity": 10,
+            "unit": "ppm",
+            "limitType": "TYPE_I"
+        },
+        {
+            "type": "temperature",
+            "ranges": [17, 27, 50],
+            "colors": ["#E1CB43", "#17AF35", "#E1CB43"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_temperature.html",
+            "name": "Temperature",
+            "min": 5,
+            "max": 45,
+            "granularity": 1,
+            "unit": "celsius",
+            "limitType": "TYPE_II"
+        },
+        {
+            "type": "humidity",
+            "ranges": [29, 60, 100],
+            "colors": ["#E1CB43", "#17AF35", "#E1CB43"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_humidity.html",
+            "name": "Humidity",
+            "min": 0,
+            "max": 100,
+            "granularity": 1,
+            "unit": "%",
+            "limitType": "TYPE_II"
+        },
+        {
+            "type": "voc",
+            "ranges": [220, 325, 500, 999999],
+            "colors": ["#17AF35", "#74CB40", "#E08638", "#CE2121"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_voc.html",
+            "name": "TVOC",
+            "min": 0,
+            "max": 1000,
+            "granularity": 5,
+            "unit": "ppb",
+            "limitType": "TYPE_I"
+        }, {
+            "type": "co",
+            "ranges": [9, 24, 50, 124, 399, 999999],
+            "colors": ["#17AF35", "#E1CB43", "#E08638", "#CE2121", "#8F3F98", "#A60505"],
+            "faq_link": "http://www.airveda.com/resources/faq/faq_co.html",
+            "name": "CO",
+            "min": 0,
+            "max": 500,
+            "granularity": 5,
+            "unit": "ppm",
+            "limitType": "TYPE_I"
+        }
+    ]
+}

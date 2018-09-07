@@ -1,0 +1,155 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            margin: 0 auto;
+            max-width: 700px;
+        }
+
+        body {
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        a {
+            color: #25CC68;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        li {
+            font-size: 14px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 30% auto;
+        }
+
+        .grid-item.grid-header {
+            background-color: #F0F0F0;
+            padding: 16px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .grid-item {
+            border: 1px solid #E0E0E0;
+            text-align: center;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="title">What is CO?</p>
+    <p>Carbon monoxide(CO) is an odorless, colorless and toxic gas. Because it is impossible to see, taste or smell the
+        toxic fumes, CO can kill you before you are aware it is in your home.</p>
+
+    <p class="subtitle">What are the sources of CO?</p>
+    <p>It is produced by the incomplete combustion of carbonaceous fuels such as wood, petrol, coal, natural gas and
+        kerosene.</p>
+    <ul>
+        <li> unvented kerosene and gas space heaters</li>
+        <li> leaking chimneys and furnaces</li>
+        <li> back-drafting from furnaces, gas water heaters, wood stoves and fireplaces</li>
+        <li> gas stoves</li>
+        <li> generators and other gasoline powered equipment</li>
+        <li> automobile exhaust from attached garages</li>
+        <li> tobacco smoke</li>
+        <li> auto, truck, or bus exhaust from attached garages, nearby roads, or parking areas</li>
+        <li> incomplete oxidation during combustion in gas ranges, and unvented gas or kerosene heaters</li>
+        <li> worn or poorly adjusted and maintained combustion devices (e.g., boilers, furnaces)</li>
+        <li> if the flue is improperly sized, blocked or disconnected</li>
+        <li> if the flue is leaking</li>
+    </ul>
+    <p class="subtitle">How is CO related to health?</p>
+    <p>
+        <span style="font-weight:bold">At low concentrations:</span>
+
+        <ul>
+            <li> fatigue in healthy people</li>
+            <li> chest pain in people with heart disease</li>
+        </ul>
+
+        <span style="font-weight:bold">At moderate concentrations:</span>
+
+        <ul>
+            <li> angina</li>
+            <li> impaired vision </li>
+            <li> reduced brain function</li>
+        </ul>
+
+        <span style="font-weight:bold">At higher concentrations:</span>
+
+        <ul>
+            <li> impaired vision and coordination</li>
+            <li> headaches</li>
+            <li> dizziness</li>
+            <li> confusion</li>
+            <li> nausea</li>
+            <li> flu-like symptoms that clear up after leaving home</li>
+            <li> fatal at very high concentrations</li>
+        </ul>
+    </p>
+
+    <p class="subtitle">Levels of CO</p>
+    <div class="grid-container">
+        <div class="grid-item grid-header">CO (ppm)</div>
+        <div class="grid-item grid-header">Health Impact</div>
+        <div class="grid-item" style="color:#17AF35">Good<br />(0-9)</div>
+        <div class="grid-item">No effects, this is the normal levels of CO.</div>
+        <div class="grid-item" style="color:#74CB40">Satisfactory<br />(10-24)</div>
+        <div class="grid-item">Maximum allowable limit for exposure by health organizations.</div>
+        <div class="grid-item" style="color:#E1CB43">Moderate<br />(25-50)</div>
+        <div class="grid-item">Fatigue in healthy people and chest pain in people with heart disease.</div>
+        <div class="grid-item" style="color:#E08638">Poor<br />(51-124)</div>
+        <div class="grid-item">Angina, impaired vision, reduced brain function.</div>
+        <div class="grid-item" style="color:#CE2121">Very poor<br />(125-399)</div>
+        <div class="grid-item">Dizziness, nasea, fagitue, headache after 2-3 hours of exposure.</div>
+        <div class="grid-item" style="color:#A60505">Severe<br />(400+)</div>
+        <div class="grid-item">Headache and nausea after 1-2 hours of exposure. Life threatening in 3 hours.</div>
+    </div>
+    </p>
+    <p class="subtitle">How can we reduce CO??</p>
+    <p>
+        It is most important to be sure combustion equipment is maintained and properly adjusted. Vehicular use should
+        be carefully managed adjacent to buildings and in vocational programs. Additional ventilation can be used as a
+        temporary measure when high levels of CO are expected for short periods of time.
+    </p>
+    <ul>
+        <li> Keep gas appliances properly adjusted.</li>
+        <li> Consider purchasing a vented space heater when replacing an unvented one.</li>
+        <li> Use proper fuel in kerosene space heaters.</li>
+        <li> Install and use an exhaust fan vented to outdoors over gas stoves.</li>
+        <li> Open flues when fireplaces are in use.</li>
+        <li> Choose properly sized wood stoves that are certified to meet EPA emission standards. Make certain that
+            doors
+            on all wood stoves fit tightly.</li>
+        <li> Have a trained professional inspect, clean and tune-up central heating system (furnaces, flues and
+            chimneys)
+            annually.</li>
+        <li> Repair any leaks promptly.</li>
+        <li> Do not idle the car inside garage.</li>
+    </ul>
+</body>
+
+</html>
