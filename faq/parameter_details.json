@@ -174,8 +174,8 @@
             "faq_link": "http://www.airveda.com/resources/faq/faq_co.html",
             "name": "CO",
             "min": 0,
-            "max": 500,
-            "granularity": 5,
+            "max": 450,
+            "granularity": 1,
             "unit": "ppm",
             "limitType": "TYPE_I"
         }
