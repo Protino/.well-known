@@ -8,9 +8,17 @@ html {
 }
 
 body {
-    font-family: 'Roboto';
-    font-size: 14px;
+    font-family: 'Roboto', 'Open sans', sans-serif;
     margin-left: 16px;
+    margin-right: 16px;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0, 0, 0, .84);
+    font-size: 20px;
+    line-height: 1.4;
 }
 
 a {
@@ -21,36 +29,51 @@ a:link {
     text-decoration: none;
 }
 
-
-p {
-    color:  #676f7a;
-    letter-spacing: normal;
-    line-height: 22px;
+i {
+    font-size: 90%;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 20px;
-    color: #434955;
+b {
+    font-size: 90%;
+    line-height: 1.4;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+p,
+li {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 1.50;
+    letter-spacing: -.004em;
+    color: rgba(0, 0, 0, .84);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 .subtitle {
+    font-family: 'Roboto', 'Open sans', sans-serif;
+    font-style: bold;
+    letter-spacing: -0.01em;
     font-weight: 700;
-    font-size: 18px;
-    color: #434955;
+    font-size: 24px;
+    line-height: 1.1;
 }
 
 .subheading {
+    font-family: 'Roboto', 'Open sans', sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    color: #434955;
-}
-
-li {
-    font-size: 14px;
-    color: #676f7a;
-    margin-bottom: 6px;
-    line-height: 18px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.0;
 }
 
 img {
@@ -63,3 +86,55 @@ img {
     margin: auto;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #DCDCDC;
+    margin: 48px 0;
+
+    padding: 0;
+}
+
+#shareContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.shareButton {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 28px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.shareSvg {
+    margin: 0 auto;
+    display: block;
+}
+
+.authorImage {
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 5px solid #F5F5F5;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.aboutAuthor>p {
+    font-family: 'Roboto', 'Open sans', sans-serif;
+    text-align: center;
+    font-size: 85%;
+}
