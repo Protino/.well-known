@@ -6,17 +6,6 @@
     <link rel="stylesheet" href="blog.css">
     <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5bab7dcd9c489500119f5b93&product=inline-share-buttons'
         async='async'></script>
-    <script>
-        window.onload = function () {
-            updateShareCount("-1")
-        };
-
-        function updateShareCount(count) {
-            visibility = count <= 0 ? "hidden" : "visible"
-            document.getElementById("shareCount").textContent = count;
-            document.getElementById("shareCountContainer").style.visibility = visibility;
-        }
-    </script>
 </head>
 
 <body>
