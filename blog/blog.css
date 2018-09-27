@@ -101,7 +101,8 @@ hr {
     justify-content: center;
 }
 
-.shareButton {
+.st-custom-button {
+    cursor: pointer;
     display: flex;
     align-items: center;
     width: 48px;
